@@ -1,0 +1,15 @@
+# Linked List Stack
+
+A stack implemented using a linked list. It follows LIFO (Last In First Out) behavior where elements are added and removed from the top of the stack.
+
+Key Concepts
+
+    ‣ Push and pop operations
+    ‣ Top pointer management
+    ‣ Dynamic memory allocation (no fixed size)
+
+## Common Use Cases
+
+Undo mechanisms
+Expression evaluation (postfix/prefix)
+Function call stacks

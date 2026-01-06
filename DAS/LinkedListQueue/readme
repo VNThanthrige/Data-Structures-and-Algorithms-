@@ -1,0 +1,15 @@
+# Linked List FIFO Queue
+
+•A queue implemented using a linked list. It follows FIFO (First In First Out) behavior where elements are added at the rear and removed from the front.
+
+Key Concepts
+
+     ‣Front and rear pointers
+     ‣Enqueue and dequeue operations
+     ‣Dynamic memory management
+
+## Common Use Cases
+
+Task scheduling
+Print spooling
+Order processing systems

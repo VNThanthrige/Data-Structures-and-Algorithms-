@@ -1,0 +1,19 @@
+# Circular Doubly Linked List
+
+• A variant of the doubly linked list where the last node points back to the first node, forming a circular structure. This allows continuous traversal in both directions without a defined start or end.
+
+![Circular Double linked list](<Untitled Diagram.drawio.png>)
+
+*Figure: Circular Doubly Linked List with prev and next pointers.*
+
+Key Concepts
+
+     ‣Circular linking (last node → first node)
+     ‣Bidirectional traversal
+     ‣Efficient insertions and deletions at both ends
+
+## Common Use Cases
+
+Multiplayer board games (turn-based logic)
+Round-robin scheduling
+Music or media playlists
