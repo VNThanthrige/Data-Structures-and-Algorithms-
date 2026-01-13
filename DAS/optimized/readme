@@ -1,0 +1,31 @@
+# Optimized Bubble Sort 
+
+This repository contains an implementation of the **Optimized Bubble Sort** algorithm in Java.  
+Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.  
+This **optimized version** improves performance by stopping early when the array is already sorted.
+
+
+##  How It Works
+
+- Uses nested loops for comparisons
+- Swaps adjacent elements if they are in the wrong order
+- Adds a **swapped flag** to detect if the array is already sorted
+- Stops the algorithm early if no swaps occurred in a pass
+
+##  Characteristics
+
+- **Stable** sorting algorithm  
+- **In place** sorting  
+- Optimized for **nearly sorted arrays**  
+- Simple, but not efficient for large datasets  
+
+
+##  When to Use Optimized Bubble Sort?
+
+- Teaching sorting algorithms  
+- Small or nearly sorted datasets  
+- Demonstrating algorithm optimization  
+
+Avoid for:
+- Large datasets  
+- Performance critical applications  
