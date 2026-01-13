@@ -1,0 +1,34 @@
+# Insertion Sort (Java)
+
+•This repository contains an implementation of the **Insertion Sort** algorithm in Java.  
+•Insertion Sort builds the final sorted array one element at a time by inserting each element into its correct position relative to previously sorted elements.
+
+The algorithm works by:
+1. Taking the next element (`key`)
+2. Shifting larger elements to the right
+3. Inserting the `key` into its sorted position
+
+
+
+##  Characteristics
+
+- **Stable** (preserves ordering of equal elements)
+- **In place**
+- Efficient for **small** or **nearly sorted** datasets
+- Commonly used in:
+  - Online sorting
+  - Sorting incoming streams
+  - Educational demonstrations of sorting 
+
+
+##  When to Use Insertion Sort?
+
+Use when:
+- Data is almost sorted
+- Input size is small 
+- You need a stable sort
+- You are streaming/inserting in sorted order
+
+Avoid when:
+- Large datasets or performance critical use cases
+

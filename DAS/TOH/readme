@@ -1,0 +1,28 @@
+# Tower of Hanoi
+
+This repository contains a **recursive implementation** of the Tower of Hanoi problem in Java.  
+
+The Tower of Hanoi is a classic problem in computer science that demonstrates **recursion** and **problem-solving techniques**.
+
+##  Problem Description
+
+You have three rods and `n` disks of different sizes:  
+- All disks start on the **source rod**, stacked largest to smallest.  
+- The goal is to move all disks to the **destination rod** following these rules:
+
+1. Only one disk can be moved at a time.  
+2. A disk can only be placed on top of a larger disk or an empty rod.  
+3. An auxiliary rod can be used as temporary storage.
+
+## Characteristics
+
+- **Recursive algorithm**  
+- Demonstrates **divide and conquer** approach  
+- Grows **exponentially** with the number of disks  
+
+
+## Applications
+
+- Teaching recursion and algorithm design  
+- Puzzle-solving exercises  
+- Understanding exponential growth and recursion stack  
