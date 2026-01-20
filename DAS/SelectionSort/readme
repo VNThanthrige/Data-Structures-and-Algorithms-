@@ -1,0 +1,35 @@
+# Selection Sort (Java)
+
+This repository contains a Java implementation of the **Selection Sort** algorithm.  
+Selection Sort repeatedly selects the **minimum element** from the unsorted portion of the array and moves it into its final position.
+
+
+##  How It Works
+
+Selection Sort performs the following steps:
+
+1. Scan the array to find the **minimum** element
+2. Swap it with the first unsorted element
+3. Move the boundary of sorted/unsorted regions
+4. Repeat until fully sorted
+
+
+##  Characteristics
+
+- **In place sorting**
+- **Not stable** (relative order may break)
+- Always performs the same number of comparisons (`O(n²)`)
+- Useful when:
+  ✔ memory is limited  
+  ✔ swaps are costly but comparisons are cheap  
+
+
+
+##  When To Use Selection Sort?
+
+✔ Works for small datasets  
+✔ Works when minimizing writes is important (at most `n` swaps)
+
+Avoid when:
+ input size is large  
+ better time complexity is needed  

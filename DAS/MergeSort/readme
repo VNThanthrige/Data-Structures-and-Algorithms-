@@ -1,0 +1,34 @@
+# Merge Sort 
+
+This repository contains an implementation of the **Merge Sort** algorithm in Java.  
+Merge Sort is a classic example of a **Divide and Conquer** sorting algorithm and is widely used due to its predictable `O(n log n)` time complexity.
+
+
+##  How It Works
+
+Merge Sort operates in two main steps:
+
+1. **Divide** the array into two halves recursively.
+2. **Merge** the sorted halves back together.
+
+
+##  Characteristics
+
+- **Divide and Conquer**
+- **Stable sort**
+- **Not in place** (requires additional storage)
+- Works well for large datasets
+- Predictable performance regardless of initial ordering
+
+
+##  When to Use Merge Sort?
+
+Use when -
+
+✔ Data sets are large  
+✔ Stable sorting is needed  
+✔ Predictable performance is important  
+
+Avoid when:
+
+✔ Memory usage is a constraint (extra space needed)

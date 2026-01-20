@@ -1,0 +1,40 @@
+# Quick Sort (Java)
+
+This repository contains an implementation of the **Quick Sort** algorithm in Java.  
+Quick Sort is a highly efficient sorting algorithm that utilizes a **Divide and Conquer** approach and is widely used in real-world systems due to its excellent average performance.
+
+---
+
+##  How It Works
+
+Quick Sort works in three main steps:
+
+1. Choose a **pivot** element
+2. **Partition** the array into two halves:
+   - Smaller elements on the left
+   - Greater elements on the right
+3. Recursively apply Quick Sort to both halves
+
+For this implementation, the **last element** is chosen as the pivot using the **Lomuto partition scheme**.
+
+##  Characteristics
+
+- **Divide and Conquer**
+- **Not stable** (relative order not preserved)
+- **In place sorting** (no extra arrays needed)
+- Often faster than Merge Sort in practice
+- Used in many real world libraries
+
+
+##  When To Use Quick Sort?
+
+Use when:
+
+✔ Fast average performance needed  
+✔ Memory usage should be minimal  
+✔ Input data is arbitrary and not nearly sorted  
+
+Avoid:
+
+ When data is nearly sorted (can degrade to worst case)  
+ When stability is required  

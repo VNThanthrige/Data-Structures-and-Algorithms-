@@ -1,0 +1,35 @@
+# Optimized Insertion Sort 
+
+This repository contains an optimized implementation of the **Insertion Sort** algorithm in Java.  
+Insertion Sort builds a sorted portion of the array one element at a time.  
+This optimized version improves performance by shifting elements instead of swapping repeatedly.
+
+
+##  How It Works
+
+For each element:
+1. Store the value as `key`
+2. Shift all larger elements one position to the right
+3. Insert the `key` in its correct position
+
+
+
+##  Characteristics
+
+- **Stable sorting**
+- **In place (no extra memory)**
+- Efficient for -
+   small datasets  
+   nearly sorted data  
+- Avoids repeated swaps and uses **shifting**, which reduces operations
+
+
+##  When To Use Optimized Insertion Sort?
+
+Use when:
+- Input is almost sorted
+- Memory usage must be minimal
+- Simplicity matters
+
+Avoid for:
+- Very large datasets (due to quadratic time)
