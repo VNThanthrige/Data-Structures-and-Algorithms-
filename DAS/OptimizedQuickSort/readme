@@ -1,0 +1,38 @@
+# Optimized QuickSort
+
+This repository contains an implementation of an **Optimized QuickSort** algorithm in Java.  
+Optimized QuickSort is an enhanced version of the classic QuickSort, designed to improve performance by reducing worst case scenarios and speeding up small subarray sorting.
+
+---
+
+## How It Works
+
+Optimized QuickSort works by:
+
+1. **Selecting a pivot** using the **median of three method** (first, middle, last elements).  
+2. **Partitioning** the array: elements less than the pivot go left, elements greater go right.  
+3. **Recursively sorting** the left and right partitions.  
+4. **Switching to Insertion Sort** for small subarrays (size ≤ 10) for efficiency.
+
+These enhancements make it faster and more stable on real world datasets compared to plain QuickSort.
+
+
+## Characteristics
+
+✔ Divide and Conquer sorting algorithm  
+✔ Inplace sorting (minimal extra memory)  
+✔ Reduces likelihood of worst-case performance
+
+
+## When to Use
+
+Use when:
+
+✔ Large datasets need efficient sorting  
+✔ Predictable performance is desired  
+✔ In-place sorting is required  
+
+Avoid when:
+
+✔ Small datasets (Insertion Sort alone may be faster)  
+✔ Stable sort is required (Optimized QuickSort is **not stable**)  

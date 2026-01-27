@@ -1,0 +1,50 @@
+
+# Binary Search Tree (BST)
+
+This repository contains an implementation of a **Binary Search Tree (BST)** in Java.  
+A BST is a hierarchical data structure that maintains elements in a sorted order, allowing efficient searching, insertion, and traversal operations.
+
+
+## Properties
+
+Every node in a BST follows these properties:
+
+1. The **left subtree** of a node contains only nodes with keys **less than the node’s key**.  
+2. The **right subtree** of a node contains only nodes with keys **greater than the node’s key**.  
+3. Both the left and right subtrees must also be BSTs (recursive property).  
+4. No duplicate nodes are allowed (optional based on implementation).  
+
+These properties ensure that **in order traversal** always produces a sorted sequence.
+
+
+## How It Works
+
+Insertion works recursively:
+
+1. Compare the new value with the current node.
+2. If smaller, move to the left subtree; if larger, move to the right subtree.
+3. Insert the value at the first null child encountered.
+
+## Characteristics
+
+✔ Hierarchical, node based structure  
+✔ Maintains sorted ordering of elements  
+✔ Supports recursive insertion and traversal  
+✔ Simple pointer-based implementation  
+✔ Traversals include in order, pre order, and post order
+
+---
+
+## When to Use BSTs
+
+Use when:
+
+✔ Sorted ordering is important  
+✔ Frequent search and insert operations are required  
+✔ Tree height is expected to be reasonably balanced  
+
+Avoid when:
+
+✔ Guaranteed balancing is required → consider **AVL Tree** 
+✔ Fast lookups without ordering are needed → consider **HashMap** or **HashSet**
+

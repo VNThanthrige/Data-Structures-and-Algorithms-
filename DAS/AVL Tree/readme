@@ -1,0 +1,40 @@
+# AVL Tree 
+
+This repository contains an implementation of an AVL Tree in Java.
+An AVL Tree is a self-balancing Binary Search Tree (BST) that maintains guaranteed O(log n) search, insert, and delete performance through automatic tree rotations.
+
+
+##  How It Works
+
+The AVL Tree maintains balance using the balance factor of each node:
+- Balance Factor = height(left) − height(right) must always be −1, 0, or +1
+
+Whenever this constraint is violated, the tree restores balance using structured rotations.
+
+1. LL (Right Rotation)
+2. RR (Left Rotation)
+3. LR (Left Right Rotation)
+4. RL (Right Left Rotation)
+
+These rotations restore balance while preserving BST ordering.
+
+## Characteristics
+
+✔ Self balancing binary search tree
+✔ Guaranteed logarithmic height
+✔ Improved lookup performance over unbalanced BST
+✔ Uses rotations to maintain balance
+✔ Predictable worst-case complexity for operations
+
+##  When to Use Merge Sort?
+
+Use when -
+
+✔ Fast lookups are required
+✔ Data is inserted dynamically over time
+✔ Worst case performance matters
+
+Avoid when:
+
+✔ Insert or delete operations are extremely frequent and a Red Black Tree is more efficient
+✔ Key ordering is not needed (a HashMap may be better)
